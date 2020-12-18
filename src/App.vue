@@ -1,11 +1,15 @@
 <template>
   <div id="nav">
-   <div>
+   <h1>
      首页
-   </div>
+   </h1>
+   <router-view/>
   </div>
- 
 </template>
-
-<style>
+<script>
+export default {
+  name: 'App'
+}
+</script>
+<style lang="less">
 </style>
